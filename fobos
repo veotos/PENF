@@ -25,14 +25,14 @@ $OPTIMIZE    = -O2
 template  = template-shared-gnu
 target    = src/lib/penf.F90
 build_dir = ./shared/
-output    = penf.so
+output    = libpenf.so
 mklib     = shared
 
 [static-gnu]
 template  = template-static-gnu
 target    = src/lib/penf.F90
 build_dir = ./static/
-output    = penf.a
+output    = libpenf.a
 mklib     = static
 
 [tests-gnu]
